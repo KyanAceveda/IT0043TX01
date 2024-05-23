@@ -1,0 +1,125 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149722799.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin:  auto;
+    padding: 0;
+}
+
+.card{
+    width:300px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-container{
+    background-image: url(https://pht.qoo-img.com/tpdGuMBMVVrtyWP7-zgejRi6b_9l8njFXS-FGsZvINITfMabRZWJNoBgk14eGyEa0zhp=w512);
+    background-size: cover;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+}
+
+.image-container img{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.details{
+    padding: 15px;
+    background-color: rgb(34, 34, 34);
+}
+
+.name{
+    font-size: 25px;
+    color: white;
+}
+
+.type{
+    font-size: 15px;
+    color: white;
+}
+
+.water{
+    border-radius: 4px;
+    background-color: rgba(27, 196, 238, 0.897);
+    padding: 5px;
+}
+
+.normal{
+    border-radius: 4px;
+    background-color: #A8A77A;
+    padding: 5px;
+}
+
+.fairy{
+    border-radius: 4px;
+    background-color: pink;
+    padding: 5px;
+}
+
+.fire{
+    border-radius: 4px;
+    background-color: rgba(247, 102, 6, 0.938);
+    padding: 5px;
+}
+
+.psychic{
+    border-radius: 4px;
+    background-color: rgba(236, 49, 90, 0.938);
+    padding: 5px;
+}
+
+.flying{
+    border-radius: 4px;
+    background-color: rgba(158, 241, 241, 0.938);
+    padding: 5px;
+}
+
+.ground{
+    border-radius: 4px;
+    background-color: rgba(218, 167, 0, 0.075);
+    padding: 5px;
+}
+
+.steel{
+    border-radius: 4px;
+    background-color: rgb(51, 75, 75);
+    padding: 5px;
+}
+
+.desc{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+button{
+    padding: 10px;
+}
+
+.add{
+    border-radius: 4px;
+    background-color: rgb(63, 180, 92);
+    color: white;
+}
+
+.release{
+    border-radius: 4px;
+    background-color: rgb(236, 77, 59);
+    color: white;
+}
