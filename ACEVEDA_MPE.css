@@ -1,0 +1,47 @@
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/b7/7f/71/b77f71fec81f6583c0c715201197f20b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-container {
+    height: 400px;
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: r;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1px;
+}
+
+.pokemon:hover {
+    background-image: url(https://www.veeforu.com/wp-content/uploads/2022/09/Pink-pokemon-wallpaper-hd-download.-1024x576.jpg);
+    background-size: cover;
+}
+
+.pokemon .name {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    bottom: 10px;
+}
+
